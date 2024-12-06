@@ -1,0 +1,545 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+header{
+    background: #fff;
+    padding: 20px 0 30px 0;
+    border: 1px solid #E4E4E4;
+    position: fixed;
+    width: 100vw;
+    z-index: 999;
+}
+.container{
+    width: 95%;
+    margin: auto;
+}
+menu{
+    display: none;
+}
+menu li a i{
+    color:#4f3fa8
+}
+#logo{
+    font: 300 1.43em Montserrat;
+    color: #525252;
+}
+#logo:hover{
+    color: black;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav a{
+    border: none;
+    background-color: white;
+    color: #3A52BF;
+}
+.hero{
+    background: url('../img/ocean.jpg') center/cover fixed;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+    align-items: center;
+    gap: 4%;
+}
+.btn{
+    display: inline-block;
+    font: bold .8em Montserrat;
+    padding: 18px 55px;
+    background-color: #745CF9;
+    border: 2px solid #745CF9;
+    transition: .2s;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.btn:hover{
+    background-color: #5444b1;
+    border: 2px solid #5444b1;
+    cursor: pointer;
+}
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.btns a{
+    font: bold .8em Montserrat;
+    color: white;
+    text-transform: uppercase;
+}
+#btn1{
+    background-color: #745CF9;
+    border: 2px solid #745CF9;
+    padding: 18px 55px;
+    transition: .2s;
+    font: bold .8em Montserrat;
+    color: white;
+    text-transform: uppercase;
+}
+#btn2{
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 18px 35px;
+    transition: .2s;
+}
+#btn1:hover{
+    background-color: #5444b1;
+    border: 2px solid #5444b1;
+    cursor: pointer;
+}
+#btn2:hover{
+    background-color: #fff;
+    color: rgb(56, 56, 56);
+    cursor: pointer;
+}
+.seo{
+    background-color: white;
+    padding: 80px 0;
+}
+h1{
+    font: 300 1.8em  Montserrat;
+    color: white;
+}
+h2{
+    font: 400 1.4em Montserrat;
+    color: #0E0F14;
+}
+h3{
+    font: 400 1.8em Montserrat;
+    color: white;
+}
+h4{
+    font: 400 1.4em Montserrat;
+    color: #0E1015;
+}
+h6{
+    font: 300 .8em Montserrat;
+    color: white;
+}
+#macbook{
+    width: 100%;
+}
+.col p{
+    font: 400 .8em/2 Montserrat;
+    color: #8C979E;
+    padding: 30px 0 0 0;
+}
+.portfolio{
+    background-color: #F5F5F5;
+    width: 100%;
+    padding: 60px 2.5%;
+}
+#portimg{
+    width: 100%;
+    margin-top: 40px;
+}
+.parallax{
+    background: url('../img/wave.jpg') fixed center/cover ;/*backgroundu nece yuxari asagi surusdururduk?*/
+    width: 100%;
+    text-align: center;
+    padding: 100px 0;
+}
+.parallax p{
+    font: 400 .7em/2 Montserrat;
+    color: #fff;
+    padding: 60px 0;
+}
+.limit{
+    align-items: center;
+    text-align: center;
+    padding: 60px 30px;
+}
+.limit h3{
+    color: #0E1015;
+    font-size: 1.4em;
+}
+.limit p{
+    font: 400 .7em/2 Montserrat;
+    color: #8C979E;
+    padding: 20px 0 50px 0;
+}
+#forest{
+    width: 100%;
+}
+.gallery-section{
+    background-color: #0E1015;
+    text-align: center;
+    padding: 80px 0 0 0;
+    margin-top: -4px;
+}
+.gallery-section p{
+    font: 400 .8em Montserrat;
+    color: #fff;
+    padding: 30px 0 50px 0;
+}
+.gallery {
+    display: flex;
+    flex-direction: column;
+}
+.gallery div {
+    width: 100%;
+    position: relative;
+}
+.gallery div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gallery-section h5 {
+        background: rgb(0, 0, 0);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.6722338593640581) 23%, rgba(0, 0, 0, 0.4929621506805847) 88%);
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.1rem;
+        color: white;
+}
+.customers {
+    background: url('../img/clouds.jpg') fixed center/cover ;
+    text-align: center;
+    padding: 60px 0;
+    margin-top: 10px;
+}
+.customers p{
+    color: white;
+}
+.customers img{
+    border-radius: 50%;
+    width: 100px;
+}
+.customers h6{
+    padding: 20px;
+}
+.clients{
+    text-align: center;
+    padding: 100px 0 70px 0;
+}
+.clients i{
+    font-size: 3.8em;
+    margin: 50px 80px 0 80px;
+}
+
+#html{
+    color: red;
+}
+#js{
+    color: rgb(182, 182, 0);
+}
+#java{
+    color: orange;
+}
+
+.wordpress{
+    background-color: #F5F5F5;
+    padding: 60px 2.5% 0 2.5%;
+    text-align: center;
+    position: relative;
+}
+.wordpress h3{
+    font-size: 1.4rem;
+    color: #0E1015;
+}
+.wordpress a{
+    font: bold .8em Montserrat;
+    border: 2px solid #745CF9;
+    background-color: #745CF9;
+    color: white;
+    text-transform: uppercase;
+    margin: 50px 0;
+    padding: 18px 55px;
+}
+.wordpress a:hover{
+    background-color: #5444b1;
+    border: 2px solid #5444b1;
+    cursor: pointer;
+}
+footer{
+    background-color: #0E1015;
+    padding: 80px 2.5%;
+    text-align: center;
+    position: relative;
+}
+footer p{
+    font: 300 .9em Montserrat;
+    color: white;
+    text-align: center;
+    margin: 15px ;
+}
+footer i{
+    color: white;
+    margin: 5px ;
+    font-size: 1.2em;
+}
+footer a{
+    border: 2px solid #87888A;
+    color: #87888A;
+    padding: 10px 15px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+span{
+    color: white;
+}
+footer a:hover{
+    border: 2px solid white;
+    color: white;
+}
+footer i:hover{
+    color: #745CF9;
+}
+span:hover{
+    color: #745CF9;
+}
+
+
+
+@media only screen and (min-width:768px) {
+    header{
+        background: #fff;
+        padding: 20px 0 30px 0;
+        border: 1px solid #E4E4E4;
+        position: fixed;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        gap: 10%;
+    }
+    .container{
+        width: 80%;
+        margin: auto;
+    }
+    .hero h1{
+        font-size: 3.8em;
+    }
+    .seo{
+        width: 100%;
+        margin: auto;
+    }
+    .portfolio{
+        padding: 60px 10%;
+    }
+    .clients i{
+    color: #a0a0a0 !important;
+    font-size: 3.8em;
+    margin: 40px 80px 0 80px;
+    }
+    #html:hover{
+        color: red !important;
+    }
+    #js:hover{
+        color: rgb(182, 182, 0) !important;
+    }
+    #java:hover{
+        color: orange !important;
+    }
+    .gallery {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .gallery div {
+        width: 50%;
+    }
+    #forest{
+        width: 80%;
+        margin: 0 10%;
+    }
+    .wordpress{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 10%;
+    }
+    footer{
+        background-color: #0E1015;
+        padding: 80px 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;
+    }
+    footer a:hover{
+        border: 2px solid white;
+        color: white;
+    }
+    footer i:hover{
+        color: #745CF9;
+    }
+    span:hover{
+        color: #745CF9;
+    }
+}
+
+@media only screen and (min-width:990px) {
+    .container{
+        width: 64%;
+        margin: auto;
+    }
+    header{
+        background: #fff;
+        padding: 20px 0 30px 0;
+        border: 1px solid #E4E4E4;
+        position: fixed;
+        width: 100vw;
+    }
+    .hero h1{
+        margin-top: 40px;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        gap: 10%;
+    }
+    main{
+        background-color: #f5f5f5;
+    }
+    menu{
+        display: flex;
+        text-transform: uppercase;
+        font: 500 .8em Montserrat;
+        justify-content: center;
+        align-items: center;
+        gap: 8%;
+        white-space: nowrap;
+    }
+    menu li a{
+        color: #4C4C4C;
+    }
+    #bars{display: none;}
+    .hero{
+        padding: 0 80px;
+    }
+    .hero h1{
+        font-size: 3.8em;
+    }
+    .portfolio{
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: auto;
+    }
+    .seo{
+        width: 100%;
+        padding: 60px 24%;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: auto;
+    }
+    .seo img{
+        padding-right: 50px;
+    }
+    h2{
+        font-size: 1.8em;
+    }
+    .parallax{
+        width: 100%;
+        padding: 100px 0;
+    }
+    .parallax p{
+        padding: 0 90px;
+    }
+    .parallax h3{
+        font-size: 3.4em;
+    }
+    .parallax a{
+        position: relative;
+        bottom: -30px;
+    }
+    .limit h3{
+        font-size: 2em;
+    }
+    .limit{
+        width: 64%;
+        margin:  0 18%;
+    }
+    .clients{
+        width: 100%;
+    }
+    .wordpress{
+        background-color: #F5F5F5;
+        padding: 60px 20% 0 20%;
+        text-align: center;
+        position: relative;
+    }
+    .wordpress h3{
+        font-size: 1.4rem;
+        color: #0E1015;
+    }
+    .wordpress a{
+        font: bold .8em Montserrat;
+        border: 2px solid #745CF9;
+        background-color: #745CF9;
+        color: white;
+        text-transform: uppercase;
+        margin: 50px 0;
+        padding: 18px 55px;
+    }
+    .customers{
+        width: 100%;
+    }
+    .gallery-section{
+        text-align: center;
+        padding: 80px 0 0 0;
+    }
+    .gallery div {
+        width: 25%;
+    }
+    .gallery div h5 {
+        width: 0;
+        height: 0;
+        overflow: hidden;
+        transition: .5s ease-in-out;
+    }
+    .gallery div:hover h5 {
+        height: 100%;
+        width: 100%;
+    }
+    #forest{
+        width: 64%;
+        margin: 0 18%;
+    }
+    .clients i{
+        color: #a0a0a0 !important;
+        font-size: 3.8em;
+        margin: 20px 80px 0 80px;
+    }
+    .clients h4{
+        padding: 20px 0;
+    }
+    #html:hover{
+        color: red !important;
+    }
+    #js:hover{
+        color: rgb(182, 182, 0) !important;
+    }
+    #java:hover{
+        color: orange !important;
+    }
+    footer{
+        background-color: #0E1015;
+        padding: 80px 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;
+    }
+}
+
